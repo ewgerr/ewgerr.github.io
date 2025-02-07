@@ -1,41 +1,60 @@
-body{
-    background-color: hsl(hue, saturation, lightness);
-    background-size: 20px 20px;
+body {
+    background-color: hsl(210, 50%, 95%);
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1
-{
-    color:rgb(74, 74, 46);
-    text-align:center;
-}
-.conteiner{
-    color:beige;
-    counter-reset: section;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section{
-    text-align: left;
-    counter-increment: section;
-    width: 30%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    font-weight: bold;
+
+header {
+    background-color: rgb(74, 74, 46);
     color: beige;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid rgb(223, 223, 8);
-    margin: 5px;
-    text-decoration: none;
+    padding: 40px;
+    text-align: center;
 }
-.link{
-    color:rgb(113, 25, 25);
-    text-decoration: none;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
 }
-link:hover{
-    cursor: pointer;
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.link {
+    background-color: rgb(74, 74, 46);
+    color: beige;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 10px;
+    transition: color 0.9s;
+}
+
+
+
+.link:hover {
+    background-color: beige;
+    color: rgb(74, 74, 46);
+}
+
+.link:active {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: rgb(74, 74, 46);
+    color: beige;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
