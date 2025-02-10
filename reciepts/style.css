@@ -1,21 +1,50 @@
-body {
+body{
     background-color: hsl(210, 50%, 95%);
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
+.tisto {
     background-color: rgb(74, 74, 46);
     color: beige;
     padding: 5px;
     text-align: left;
+    border-radius: 10px;
+    height: 300px;
+    background-image: url(img/recept2.jpg);
+    background-size: cover;
 }
 
-header img {
-    display: block;
-    margin: 20px auto;
+.puding {
+    background-color: rgb(74, 74, 46);
+    color: beige;
+    padding: 5px;
+    text-align: left;
     border-radius: 10px;
+    height: 300px;
+    background-image: url(img/recept3.jpg);
+    background-size: cover;
+}
+
+.carbonara {
+    background-color: rgb(74, 74, 46);
+    color: beige;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    background-image: url(img/recept1.jpg);
+    background-size: cover;
+}
+.inc{
+    background-color: rgb(74, 74, 46);
+    display: block;
+    margin: 20px 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: beige;
+
 }
 
 main {
